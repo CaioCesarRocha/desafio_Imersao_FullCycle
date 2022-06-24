@@ -10,7 +10,7 @@ import ShowSelectedPost from '../pages/showSelectedPost';
 
 const AppRoutes = () => {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename='/%60'>
             <Routes>
                 <Route element={<ShowPosts/>} path="/" /> 
                 <Route element={<ShowSelectedPost/> } path="showSelectedPost/:id"/>             
