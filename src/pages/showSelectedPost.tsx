@@ -82,7 +82,7 @@ const ShowSelectedPost = () =>{
             variant: "success",
         });
         else if(status === 'deslike') {
-            enqueueSnackbar(`Deslike adicionado, buscaremos novos posts com seu perfil!`, {
+            enqueueSnackbar(`Deslike, buscaremos novos posts de acordo com seu perfil!`, {
                 variant: "error",
             }); 
         }else{
